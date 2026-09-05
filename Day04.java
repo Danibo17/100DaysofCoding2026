@@ -23,8 +23,8 @@ public class day04 {
         // hampir semua angka biasa yang kita pakai sehari hari muat disini,
         // jadi kalau bingung mau pakai yang mana, pilih int saja sudah cukup
         // Contoh pemakaian: NIM, nomor hp, jumlah mahasiswa dan angka lainnya.
-        // int nimMahasiswa = "022603";
 
+        int nimMahasiswa = 226003;
         System.out.println("Nilai int (NIM) : " + nimMahasiswa);
         // ========== 4. TIPE DATA long ==========
         // Tipe data ini yang paling besar ukurannya memakai 8 byte memori.
