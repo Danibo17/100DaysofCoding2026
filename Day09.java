@@ -5,7 +5,7 @@ public class day09 {
         final double DISKON = 0.10; // 10%
         // Menghitung potongan dan harga akhir
         double potongan = HARGA * DISKON;
-        double hargaAkhir = Harga - potongan;
+        double hargaAkhir = HARGA - DISKON;
         // Hasil
         System.out.println("Harga Awal : Rp" + HARGA);
         System.out.println("Diskon 10% : Rp" + potongan);
