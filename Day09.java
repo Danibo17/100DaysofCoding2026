@@ -8,7 +8,7 @@ public class day09 {
         double hargaAkhir = Harga - potongan;
         // Hasil
         System.out.println("Harga Awal : Rp" + HARGA);
-        System.out.println("Dsikon 10% : Rp" + potongan);
+        System.out.println("Diskon 10% : Rp" + potongan);
         System.out.println("Harga Akhir : Rp" + hargaAkhir);
     }
 }
