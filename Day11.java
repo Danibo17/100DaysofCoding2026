@@ -17,3 +17,5 @@ public class Day11 {
         System.out.printf("%-15s : %.1f cm%n", "Tinggi Badan", tinggi);
         System.out.printf("%-15s : %c%n", "Grade", grade);
         System.out.println("==============================");
+    }
+}
