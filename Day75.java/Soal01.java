@@ -1,5 +1,5 @@
 import java.util.Scanner;
- public class TigaPerulangan {
+ public class Soal01 {
      public static void main(String[] args) {
          Scanner input = new Scanner(System.in);
          
