@@ -1,0 +1,21 @@
+import java.util.Scanner;
+ public class Soal2 {
+     public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+         
+         System.out.print("Masukkan jumlah nama: ");
+         int jumlah = input.nextInt();
+         input.nextLine(); // membersihkan buffer
+         
+         String[] nama = new String[jumlah];
+         
+         for (int i = 0; i < jumlah; i++) {
+             System.out.print("Masukkan nama ke-" + (i+1) + ": ");
+             nama[i] = input.nextLine();
+         }
+         System.out.println("\nDaftar nama:");
+         for (int i = 0; i < jumlah; i++) {
+             System.out.println(nama[i]);
+         }
+     }
+ }
