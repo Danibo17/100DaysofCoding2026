@@ -1,0 +1,32 @@
+import java.util.Scanner;
+ public class Soal1 {
+     public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+         
+         System.out.print("Masukkan jumlah mahasiswa: ");
+         int jumlah = input.nextInt();
+         input.nextLine();
+
+         String[] nama = new String[jumlah];
+         for (int i = 0; i < jumlah; i++) {
+             System.out.print("Masukkan nama ke-" + (i + 1) + ": ");
+             nama[i] = input.nextLine();
+         }
+         
+         System.out.print("Masukkan nama yang dicari: ");
+         String cari = input.nextLine();
+         
+         boolean ditemukan = false;
+         for (int i = 0; i < jumlah; i++) {
+             if (nama[i].equals(cari)) {
+                 ditemukan = true;
+                 break;
+             }
+         }
+         if (ditemukan) {
+             System.out.println("Nama " + cari + " ditemukan.");
+         } else {
+             System.out.println("Nama " + cari + " tidak ditemukan.");
+         }
+     }
+ }
