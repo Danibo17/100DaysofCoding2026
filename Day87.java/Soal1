@@ -1,0 +1,35 @@
+import java.util.Scanner;
+ public class Soal1 {
+     public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+         
+         System.out.print("Masukkan jumlah mahasiswa: ");
+         int jumlah = input.nextInt();
+         
+         int[] nilai = new int[jumlah];
+         for (int i = 0; i < jumlah; i++) {
+             System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+             nilai[i] = input.nextInt();
+         }
+         
+         System.out.println("Data sebelum diubah:");
+         for (int i = 0; i < jumlah; i++) {
+             System.out.print(nilai[i] + " ");
+         }
+         System.out.println();
+        
+         System.out.print("Masukkan indeks yang ingin diubah: ");
+         int indeks = input.nextInt();
+         
+         System.out.print("Masukkan nilai baru: ");
+         int nilaiBaru = input.nextInt();
+        
+         nilai[indeks - 1] = nilaiBaru;
+        
+         System.out.println("Data setelah diubah:");
+         for (int i = 0; i < jumlah; i++) {
+             System.out.print(nilai[i] + " ");
+         }
+         System.out.println();
+     }
+ }
